@@ -42,20 +42,16 @@
                 <version>3.4.2</version>
                 <executions>
                     <execution>
+                        <phase>none</phase>
                         <goals>
                             <goal>jar</goal>
                         </goals>
-                        <configuration>
-                            <includes>
-                                <!-- Test sınıflarını JAR'a eklemek için -->
-                                <include>**/JenkinsTest.class</include>
-                            </includes>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
+
 
 
 </project>
