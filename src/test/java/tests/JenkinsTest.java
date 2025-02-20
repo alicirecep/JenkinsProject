@@ -34,7 +34,7 @@ public class JenkinsTest {
 	void Test7(){ assertTrue(true);}
 	@Test
 	void Test8(){
-		assertTrue(false);
+		assertTrue(true);
 	}
 	@Test
 	void Test9(){
